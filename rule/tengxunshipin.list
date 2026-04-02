@@ -8,33 +8,12 @@
 #!date=2025-06-09 20:00:26
 #############################################
 
-# > 精简版
-#DOMAIN, info4.video.qq.com
-#DOMAIN, info6.video.qq.com
-#DOMAIN, ugchsy.gtimg.com
-#DOMAIN, rmonitor.qq.com
-#DOMAIN, activity.video.qq.com
-#DOMAIN, iacc.qq.com
-#DOMAIN, tux.qq.com
-#DOMAIN, aegis.qq.com
-#DOMAIN, rdelivery.qq.com
-#DOMAIN-SUFFIX, static-res.qq.com
-#DOMAIN-SUFFIX, gdtimg.com
-#DOMAIN-SUFFIX, l.qq.com
-#DOMAIN-SUFFIX, gdt.qq.com
-#DOMAIN-SUFFIX, video.mpush.qq.com
-#DOMAIN-SUFFIX, api.poll.video.qq.com
-#DOMAIN-SUFFIX, tpns.tencent.com
-#DOMAIN-SUFFIX, omgmta.qq.com
-#DOMAIN-SUFFIX, omgmta1.qq.com
-#DOMAIN-KEYWORD, track.qq.com
-#DOMAIN-KEYWORD, trace.qq.com
-#DOMAIN-KEYWORD, pgdt.gtimg.c
-#DOMAIN-KEYWORD, trace.video.qq.com
-#DOMAIN-KEYWORD, 1258344696.file.myqcloud.com
-#IP-CIDR, 183.201.213.194/24, no-resolve
-
 # > 复杂版
+DOMAIN,ad.tencentvideo.com,REJECT
+DOMAIN,adstats.tencentvideo.com,REJECT
+DOMAIN,info6.video.qq.com,REJECT
+DOMAIN-SUFFIX,gdtimg.com,REJECT
+DOMAIN-SUFFIX,ugdtimg.com,REJECT
 DOMAIN, pgdt.gtimg.cn
 DOMAIN, ugchsy.gtimg.com
 DOMAIN, adsmind.gdtimg.com
